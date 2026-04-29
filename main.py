@@ -32,4 +32,4 @@ while True:
         print(success_color("Xóa Ram cache thành công!"))
     except:
         print(error_color("Xóa ram cache thất bại!"))
-    waiting_ui(120, text=f"Đợi {60*60}s (1 giờ) để tiếp tục.")
+    waiting_ui(60*60, text=f"Đợi {60*60}s (1 giờ) để tiếp tục.")
